@@ -1,0 +1,241 @@
+
+
+circle {
+    cursor: pointer;
+    stroke: #000;
+    stroke-width: .5px;
+}
+
+line.link {
+    fill: none;
+    stroke: #9ecae1;
+    stroke-width: 1.5px;
+}
+.Header{
+    color: rgb(49, 93, 136);
+    text-align: center;
+}
+#addChildInput{
+  padding: 4px;
+  width: 50%;
+  font-size: large;
+  border-color: white;
+  
+}
+.chatbotcontainer{
+  float: right;
+  position: relative;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(247, 240, 240);
+}
+span{
+  height: 100vh;
+}
+.Node{
+  width: 30%;
+  padding-top: 10px;
+}
+#containerCust{
+  color: #fff;
+  width: 100%;
+  height: 156px;
+  text-align: center;
+  /* padding-top: 20px; */
+}
+/* #inputSearchId{
+  margin-top: 20px;
+} */
+
+#containerHeader{
+  width: 100%; float:right ; background-color:rgb(151, 201, 241)
+}
+
+
+#btnAdd{
+  background: #0069eb;
+  color: #fff;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-color: white;
+}
+#btnSubmit{
+  background: #575d5f;
+  color: #fff;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+#btnSearchClear{
+  background: #466c79;
+  color: #fff;
+  border-radius: 6px;
+  border: none;
+  font-size: 15px;
+  padding: 8px 10px;
+  text-decoration: none;
+}
+#inputSearchId{
+  margin-top: 20px;
+  padding: 4px;
+  width: 30%;
+  font-size: large;
+  border-radius: 6px;
+  border-color:  #fff;
+}
+
+#printValue{
+  color: #47260b;
+  padding-top: 20px;
+}
+
+.headerContainer{
+  float: right;
+  width: 30%;
+}
+.headerSearchData{
+  color: #4e4c4c;
+}
+
+.form__group {
+    position: relative;
+    padding: 15px 0 0;
+    margin-top: 10px;
+    width: 20%;
+  }
+  
+  .form__field {
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #9b9b9b;
+    outline: 0;
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+  }
+  .form__field::placeholder {
+    color: transparent;
+  }
+  .form__field:placeholder-shown ~ .form__label {
+    font-size: 1.3rem;
+    cursor: text;
+    top: 20px;
+  }
+  
+  .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #eaf2f3;
+  }
+  
+  .form__field:focus {
+    padding-bottom: 6px;
+    font-weight: 700;
+    border-width: 3px;
+    border-image: linear-gradient(to right, #11998e, #38ef7d);
+    border-image-slice: 1;
+  }
+  .form__field:focus ~ .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #11998e;
+    font-weight: 700;
+  }
+  
+  /* reset input */
+  .form__field:required, .form__field:invalid {
+    box-shadow: none;
+  }
+  
+  /* New Chat Bot .........*/
+
+
+ 
+    .glass {
+      width: 300px;
+      height: 338px;
+      background-color: rgba(134, 124, 124, 0.1);
+      padding: 40px;
+      color: #000;
+      border-radius: 9px;
+      backdrop-filter: blur(50px);
+      border: 3px solid rgb(125, 150, 167);
+      background-clip: padding-box;
+      box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.3);
+      line-height: 1.5;
+      transform: translatey(-5%);
+      transition: transform 0.5s;
+      overflow-y: scroll;
+    }
+    .glass-1 {
+    width: 500px;
+    height: 400px;
+    background-color: rgba(238, 9, 9, 0.1);
+    padding: 50px;
+    color: rgb(122, 82, 82);
+    border-radius: 9px;
+    backdrop-filter: blur(50px);
+    border: 2px solid transparent;
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.3);
+    line-height: 1.5;
+    transform: translatey(-5%);
+    transition: transform 0.5s;
+    font-size: 1.7rem;
+    }
+    .glass h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    }
+    .glass h2 {
+    font-size: 1rem;
+    margin-top: 0px;
+    }
+    .input {
+    width: 100%;
+    height: 90px;
+    overflow: hidden;
+    margin-top: 40px;
+    }
+    .input input {
+    width: 80%;
+    height: 40px;
+    border: none;
+    padding-left: 30px;
+    padding-top: 0;
+    outline: none;
+    font-size: 1.0rem;
+    border-radius: 10px;
+    }
+    .submitBtn{
+      background-color: #3274aa; /* Green */
+      border: none;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 13px;
+      border-radius: 10px;
+      width: 50px;
+      padding: 12px;
+    }
+   
+    .chatLog{
+      overflow: auto;
+      height: 65;
+  
+    }
